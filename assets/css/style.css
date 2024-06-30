@@ -91,3 +91,12 @@ h1{
 footer {
     background-color: blueviolet;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.RRSS{
+    text-align: end;
+}
