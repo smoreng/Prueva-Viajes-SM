@@ -30,4 +30,38 @@ html {
     width: 50px;
 }
 
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+#Presentacion{
+    padding-top: 40px;
+}
+
+#Presentacion col{
+    text-align: justify ;
+}
+
+.icono-fondo {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    size-adjust: 10;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.parrafo-i {
+    padding-top: 16px;
+}
+
+
+#Destacados{
+    padding-top: 40px;
+}
+
+#Contacto{
+    padding-top: 40px;
+}
