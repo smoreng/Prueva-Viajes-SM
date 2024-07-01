@@ -21,13 +21,14 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <img id="logo" src="./assets/img/viajes.svg" alt="">
-            <a class="navbar-brand" href="#">VIAJES CHILE</a>
+            <a class="navbar-brand" href="#Galeria fotos">VIAJES CHILE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,7 +88,7 @@
 
     <section id="Presentacion">   
         <div class="container d-none d-sm-block">
-            <h1>¿QUIÉNES SOMOS?</h1>
+            <h1>¿Quiénes somos?</h1>
             <div class="row align-items-start">
                 <div class="col">
                     <div class="icono-fondo">
@@ -129,14 +130,13 @@
 
     </section>
 
-    <!-- Cómo puedo centrar las cards horizontalmente?-->
-     <!-- Cómo puedo hacer que las cards tengan el mismo tamaño (largo) -->
+     <!--Profe: Cómo puedo hacer que las cards tengan el mismo tamaño (largo) sin fijar una altura fija? Por ejemplo, si agrego más texto el contenedor va a quedar muy chico. -->
     <section id="Destacados">
         <div class="container text-center">
-            <h1>DESTACADOS</h1>
-            <div class="row d-flex justify-content-center mt-5">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+            <h1>Destacados</h1>
+            <div class="row" >
+                <div class="col d-flex justify-content-center ">
+                    <div class="card " style="width: 18rem;">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Dignissimos quisquam modi</h5>
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -155,17 +155,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Amet consectetur adipisicing</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                                bulk of the card's content. lorem</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -179,9 +179,10 @@
         </div>
     </section>
 
+    
     <section id="Contacto">
         <div class="container">
-            <h1>CONTACTO</h1>
+            <h1>Contacto</h1>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                 <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
@@ -194,8 +195,8 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="button" class="btn btn-primary">Enviar</button>
-        </div>
+            <button type="button" class="btn btn-primary" id="boton-enviar" data-bs-toggle="tooltip" data-bs-placement="top" title="Pronto nos contactaremos contigo">Enviar</button>
+            </div>
 
     </section>
 
@@ -225,6 +226,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/scripts.js"></script>
 
 </body>
 
